@@ -1,0 +1,27 @@
+.features {
+    padding-top: 94px;
+    /*padding-bottom: 94px;*/
+  }
+  
+  .features-list {
+    display: flex;
+  }
+  
+  .features-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .features-definition {
+    @include font (14px, 700, 1.143);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $main-text-color;
+    margin-bottom: 10px;
+  }
+  
+  .features-description {
+    @include font (14px, 400, 1.714);
+    letter-spacing: 0.03em;
+    color: $link-color;
+  }
+  
